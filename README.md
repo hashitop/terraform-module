@@ -6,9 +6,11 @@ This project is a playground to experiment on a few resource types with AWS prov
 
 These are modules that will be executed in order with `terraform apply` command
 
-* network
-* security
-* web
+* network - create network layer, i.e. VPC, subnet.
+* security - create security layer, i.e. security group
+* web - create ec2 instance
+
+Each module takes input variable(s) and return ID(s) of the resource(s) it creates as `output`
 
 ## Run
 
